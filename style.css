@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: content-box;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    line-height: 4em;
+}
+
+a {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.aside {
+    border-right: 1px solid rgb(196, 190, 190);
+    width: 220px;
+    padding-left: 15px;
+}
+
+.gap1 {
+    width: 85px;
+}
+
+.gap2 {
+    width: 90px;
+}
+
+.gap3 {
+    width: 105px;
+}
+
+.gap4 {
+    width: 125px;
+}
+
+.gap5 {
+    width: 77px;
+}
+
+.main {
+    width: 470px;
+    height: 620px;
+    position: absolute;
+    left: 530px;
+    top: 25px;
+}
+
+.instalogo {
+    width: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.header1,
+.header3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    width: 85%;
+    height: 20px;
+    border: none;
+    color: rgb(240, 231, 231);
+}
+
+.smiley {
+    width: 15px;
+}
+
+.end {
+    line-height: 7px;
+}
+
+.comment1 {
+    color: rgb(165, 158, 158);
+}
