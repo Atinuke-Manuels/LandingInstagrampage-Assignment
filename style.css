@@ -12,8 +12,7 @@ nav {
 
 a {
     display: flex;
-    justify-content: space-between;
-    width: 100px;
+    gap: 10px;
     align-items: center;
     text-decoration: none;
     color: black;
@@ -151,13 +150,13 @@ input {
 .rightspan {
     display: flex;
     justify-content: space-between;
-    gap: 100px;
+    width: 260px;
+
 }
 
 .rightspan1 {
     display: flex;
-    justify-content: space-between;
-    gap: 80px;
+    gap: 84px;
 }
 
 p {
@@ -166,7 +165,7 @@ p {
 
 ul {
     list-style: none;
-    line-height: 75px;
+    line-height: 67.5px;
     position: fixed;
 }
 
@@ -187,5 +186,5 @@ ul {
 
 .suggestions {
     display: flex;
-    gap: 125px;
+    gap: 150px;
 }
