@@ -46,13 +46,14 @@ a {
     width: 77px;
 }
 
-#wrapper{
+#wrapper {
     display: flex;
     justify-content: space-between;
     gap: 120px;
 }
 
-.instalogo, .rightpics{
+.instalogo,
+.rightpics {
     width: 43px;
     height: 43px;
     border-radius: 50%;
@@ -63,19 +64,23 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
 }
-.wrapper2{
-   border: 1px solid rgb(231, 220, 220);
-   border-radius: 5px;
-   padding-top: 5px;
+
+.wrapper2 {
+    border: 1px solid rgb(231, 220, 220);
+    border-radius: 5px;
+    padding-top: 5px;
 }
-.wrapper3, .wrapper4{
+
+.wrapper3,
+.wrapper4 {
     border: 1px solid rgb(231, 220, 220);
     border-radius: 5px;
     padding-top: 5px;
     margin-top: 15px;
- }
+}
+
 .header1,
 .header3 {
     display: flex;
@@ -107,7 +112,8 @@ input {
 .comment1 {
     color: rgb(165, 158, 158);
 }
-.rightsection{
+
+.rightsection {
     border: 1px solid black;
     width: 400px;
     height: 550px;
@@ -115,7 +121,8 @@ input {
     padding-right: 50px;
     padding-top: 20px;
 }
-.profiles{
+
+.profiles {
     display: flex;
     justify-content: space-between;
     border: 1px solid rgb(223, 214, 214);
@@ -125,54 +132,66 @@ input {
     margin: 15px 0px;
     font-size: 12px;
 }
-.profimg{
+
+.profimg {
     width: 57px;
     height: 57px;
     border-radius: 50%;
     border: 2px solid red;
 }
-.footimg{
+
+.footimg {
     width: 30px;
     padding-right: 5px;
 }
-.body1{
+
+.body1 {
     border: 1px solid rgb(133, 127, 127);
     border-radius: 5px;
 }
-.rightsection{
-border: none;
-line-height: 17px;
+
+.rightsection {
+    border: none;
+    line-height: 17px;
 }
-.right1{
+
+.right1 {
     display: flex;
-   align-items: center;
+    align-items: center;
     gap: 28px;
 }
-.rightspan{
+
+.rightspan {
     display: flex;
     justify-content: space-between;
     gap: 100px;
 }
-p{
+
+p {
     color: gray;
 }
-ul{
+
+ul {
     list-style: none;
     line-height: 75px;
 }
-.navimg{
+
+.navimg {
     width: 30px;
 }
-.navimg1{
+
+.navimg1 {
     width: 30px;
     height: 30px;
     border-radius: 50%;
 }
-.follow{
+
+.follow {
     color: rgb(132, 132, 206);
     font-size: 13px;
 }
-.suggestions{
+
+.suggestions {
     display: flex;
-   gap:125px ;
+    gap: 125px;
 }
