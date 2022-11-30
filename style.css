@@ -26,26 +26,6 @@ a {
     height: 100%;
 }
 
-.gap1 {
-    width: 85px;
-}
-
-.gap2 {
-    width: 90px;
-}
-
-.gap3 {
-    width: 105px;
-}
-
-.gap4 {
-    width: 125px;
-}
-
-.gap5 {
-    width: 77px;
-}
-
 #wrapper {
     display: flex;
     justify-content: space-between;
@@ -56,6 +36,13 @@ a {
 .rightpics {
     width: 43px;
     height: 43px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+.rightpics1 {
+    width: 57px;
+    height: 57px;
     border-radius: 50%;
     border: 2px solid red;
 }
@@ -119,7 +106,7 @@ input {
     height: 550px;
     margin-top: 15px;
     padding-right: 50px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .profiles {
@@ -167,6 +154,12 @@ input {
     gap: 100px;
 }
 
+.rightspan1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
 p {
     color: gray;
 }
@@ -174,6 +167,7 @@ p {
 ul {
     list-style: none;
     line-height: 75px;
+    position: fixed;
 }
 
 .navimg {
@@ -187,8 +181,8 @@ ul {
 }
 
 .follow {
-    color: rgb(132, 132, 206);
-    font-size: 13px;
+    color: rgb(94, 189, 247);
+    font-size: 14px;
 }
 
 .suggestions {
