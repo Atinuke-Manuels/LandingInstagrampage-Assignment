@@ -23,7 +23,7 @@ a {
     border-right: 1px solid rgb(196, 190, 190);
     width: 220px;
     padding-left: 15px;
-    height: 50em;
+    height: 100%;
 }
 
 .gap1 {
@@ -46,31 +46,45 @@ a {
     width: 77px;
 }
 
-.main {
-    width: 470px;
-    height: 620px;
-    position: absolute;
-    left: 530px;
-    top: 25px;
+#wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
 }
 
-.instalogo {
-    width: 40px;
+.instalogo, .rightpics{
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    border: 2px solid red;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
 }
-
+.wrapper2{
+   border: 1px solid rgb(231, 220, 220);
+   border-radius: 5px;
+   padding-top: 5px;
+}
+.wrapper3, .wrapper4{
+    border: 1px solid rgb(231, 220, 220);
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-top: 15px;
+ }
 .header1,
 .header3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    border: 1px rgb(216, 210, 210);
+    border-radius: 5px;
+    padding: 6px;
 }
 
 input {
@@ -86,8 +100,59 @@ input {
 
 .end {
     line-height: 7px;
+    padding-bottom: 10px;
+    padding-left: 6px;
 }
 
 .comment1 {
     color: rgb(165, 158, 158);
+}
+.rightsection{
+    border: 1px solid black;
+    width: 400px;
+    height: 550px;
+    margin-top: 15px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.profiles{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(223, 214, 214);
+    border-radius: 5px;
+    padding: 20px 0px 25px 15px;
+    height: 70px;
+    margin: 15px 0px;
+    font-size: 12px;
+}
+.profimg{
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.footimg{
+    width: 30px;
+    padding-right: 5px;
+}
+.body1{
+    border: 1px solid rgb(133, 127, 127);
+    border-radius: 5px;
+}
+.rightsection{
+border: none;
+line-height: 17px;
+}
+.right1{
+    display: flex;
+   align-items: center;
+    gap: 28px;
+}
+.rightspan{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+p{
+    color: gray;
 }
