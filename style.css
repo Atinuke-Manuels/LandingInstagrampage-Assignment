@@ -21,8 +21,8 @@ a {
 
 .aside {
     border-right: 1px solid rgb(196, 190, 190);
-    width: 220px;
-    padding-left: 15px;
+    width: 240px;
+    /* padding-left: 15px; */
     height: 100%;
 }
 
@@ -155,4 +155,24 @@ line-height: 17px;
 }
 p{
     color: gray;
+}
+ul{
+    list-style: none;
+    line-height: 75px;
+}
+.navimg{
+    width: 30px;
+}
+.navimg1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.follow{
+    color: rgb(132, 132, 206);
+    font-size: 13px;
+}
+.suggestions{
+    display: flex;
+   gap:125px ;
 }
